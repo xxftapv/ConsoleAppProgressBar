@@ -59,7 +59,7 @@ namespace ConsoleApp
         public void NewProgress()
         {
             ConsoleColor colorBack = Console.BackgroundColor;
-            CurPercent = 1;
+            curPercent = 1;
             //绘制背景界面
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             for (int i = Minimum; i < Maximum; i++)
@@ -77,7 +77,7 @@ namespace ConsoleApp
 
             #region 绘制状态界面           
             // 开始控制进度条和进度变化
-            for (int i = CurPercent; i <= value; i++)
+            for (int i = curPercent; i <= value; i++)
             {
                 //绘制进度条进度                 
                 Console.BackgroundColor = ConsoleColor.Yellow;//设置进度条颜色                
