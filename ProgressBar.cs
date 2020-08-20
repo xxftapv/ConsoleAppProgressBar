@@ -14,7 +14,7 @@ namespace ConsoleApp
         private int _maximum = 50;
         private int _step = 2;
         private int _value;
-        private int CurPercent = 1;
+        private int curPercent = 1;
         /// <summary>
         /// 最小值
         /// </summary>
@@ -93,7 +93,7 @@ namespace ConsoleApp
                 Console.ForegroundColor = colorFore;
 
             }
-            CurPercent = value;
+            curPercent = value;
 
             #endregion
 
